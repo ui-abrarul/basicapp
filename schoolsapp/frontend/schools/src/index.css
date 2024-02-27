@@ -47,6 +47,7 @@ body {
   font-weight: 500;
   margin-bottom: 5px;
   display: block;
+  color: #121212;
 }
 
 .input-box label::after {
@@ -193,12 +194,25 @@ img {
 .card-body h2 {
   font-weight: 600;
   font-size: 22px;
+  color: #121212;
 }
 .card-body small,
 .card-body p
 {
   color: #808080;
   word-wrap: break-word;
+}
+
+.card-body ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  line-height: 32px;
+    word-break: break-word;
+    color: #121212;
+}
+
+.fallback-image {
+  margin: auto;
 }
 
 @media screen and (max-width: 600px) {
